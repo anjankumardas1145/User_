@@ -7,7 +7,7 @@ import PrivateRoute from './components/PrivateRoute';
 
 const App = () => {
   return (
-    <Router basename='/User_'>
+    <Router>
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
